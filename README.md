@@ -1,4 +1,4 @@
-![image](https://github-production-user-asset-6210df.s3.amazonaws.com/2512512/306067155-cbe5aa4a-6eb0-4be9-86f4-4cc3f9e81293.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240219%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240219T202844Z&X-Amz-Expires=300&X-Amz-Signature=c078415c6a5183d4cd56f8be52b1e56359d270acf6dc6e2272a691108acf9aa7&X-Amz-SignedHeaders=host&actor_id=2512512&key_id=0&repo_id=661114097)
+![image](./figma-layout.png)
 
 ## 🍔📱 Projeto: Delivery de Lanches
 Este é um aplicativo mobile desenvolvido durante a NLW Expert da Rocketseat. Com este aplicativo, os usuários podem:
