@@ -17,7 +17,17 @@ export default function Cart() {
 
   const total = formatCurrency(cartStore.products.reduce((total, product) => total + product.price * product.quantity, 0));
 
-
+  function handleProductRemove(product: ProductProps) {
+    Alert.alert("Remover", `Deseja remove ${product.title} do carrinho`, [
+      {
+        text: "Cancelar"
+      },
+      {
+        text: "Remover",
+        onPress: () => cartStore.remove(product.id)
+      }
+    ]);
+  }
 
   return (
     <View className="flex-1 pt-8">
@@ -30,7 +40,7 @@ export default function Cart() {
                 <View className="border-b border-slate-700 pb-5">
                   {
                     cartStore.products.map((product) => (
-                      <Product data={product} key={product.id}  />
+                      <Product data={product} key={product.id} onPress={() => handleProductRemove(product)} />
                     ))
                   }
                 </View>
